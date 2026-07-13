@@ -39,6 +39,7 @@ import type {
   GatewayId,
 } from "@/types";
 
+const API_URL = import.meta.env.VITE_API_BASE_URL;
 const useMock = () => !isSupabaseConfigured() || !supabase;
 
 // ============================================================================
